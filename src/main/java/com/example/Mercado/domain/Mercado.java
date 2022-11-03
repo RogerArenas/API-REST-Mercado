@@ -14,7 +14,7 @@ import javax.persistence.Id;
 public class Mercado {
 
 
-       @GeneratedValue(strategy = GenerationType.AUTO)
+       @GeneratedValue(strategy = GenerationType.IDENTITY)
        @Id
        private Long id;
        private String nome;
